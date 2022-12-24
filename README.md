@@ -66,6 +66,16 @@ poetry --version
 poetry install
 ```
 
+The script needs SQLITE3 to run
+
+On CENTOS:
+
+```bash
+yum install -y gcc make sqlite-devel zlib-devel libffi-devel openssl-devel wget 
+```
+
+
+
 
 ## Necessary environment variables:
 
