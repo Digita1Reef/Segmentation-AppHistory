@@ -66,7 +66,7 @@ poetry --version
 poetry install
 ```
 
-The script needs SQLITE3 to run
+## The script needs SQLITE3 to run
 
 On CENTOS:
 
@@ -87,7 +87,7 @@ DB_PORT_CITUS = "1111"
 DB_HOST_CITUS = "11.11.111.213"
 
 
-AMOUNT_TO_EXTRACT=100
+AMOUNT_TO_EXTRACT=500
 TOPICS_TO_MODEL=5
 ```
 
